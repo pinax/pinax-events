@@ -7,6 +7,7 @@ import markdown
 class Event(models.Model):
 
     image = models.ImageField(upload_to="event-images", blank=True)
+    title = models.CharField(max_length=200)
     where = models.CharField(max_length=200)
     what = models.TextField()
     what_html = models.TextField(blank=True, editable=False)
