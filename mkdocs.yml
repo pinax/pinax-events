@@ -1,0 +1,9 @@
+site_name: pinax-events
+pages:
+- [index.md, Home]
+- [changelog.md, Change Log]
+theme: readthedocs
+repo_url: https://github.com/pinax/pinax-events
+site_description: "http://pinax-news.readthedocs.io/"
+site_author: "Pinax Team"
+markdown_extensions: [admonition]
