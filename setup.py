@@ -16,7 +16,7 @@ setup(
     description="a simple app for publishing events on your site",
     name="pinax-events",
     long_description=read("README.rst"),
-    version="0.1",
+    version="1.0.0",
     url="http://github.com/pinax/pinax-events/",
     license="MIT",
     packages=find_packages(),
