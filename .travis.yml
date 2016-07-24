@@ -21,3 +21,5 @@ script:
   - tox -e py${TRAVIS_PYTHON_VERSION//[.]/}-$DJANGO
 after_success:
   - coveralls
+notifications:
+  slack: pinax:rCb02bR4xVh1cRyOwajSAWoD
