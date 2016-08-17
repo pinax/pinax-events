@@ -20,6 +20,20 @@ Pinax Events
    :target:  https://pypi.python.org/pypi/pinax-events/
 
 
+Pinax
+------
+
+Pinax is an open-source platform built on the Django Web Framework. It is an ecosystem of reusable Django apps, themes, and starter project templates. 
+This collection can be found at http://pinaxproject.com.
+
+This app was developed as part of the Pinax ecosystem but is just a Django app and can be used independently of other Pinax apps.
+
+
+pinax-events
+---------------------
+
+``pinax-events`` is a simple app for publishing events on your site.
+
 Running the Tests
 -------------------
 
@@ -28,6 +42,11 @@ Running the Tests
        $ pip install detox
        $ detox
 
+
+Documentation
+----------------
+
+The Pinax documentation is available at http://pinaxproject.com/pinax/. The ``pinax-events`` documentation can be found here http://pinax-events.readthedocs.io/en/latest/.
 
 
 Contribute
