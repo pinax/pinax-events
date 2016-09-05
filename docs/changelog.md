@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.1.1
+
+* added missing migrations from 1.1.0 changes
+
 ## 1.1.0
 
 * added support for secondary images
