@@ -4,7 +4,6 @@ from django.db import models
 from django.utils import timezone
 
 import markdown
-
 from imagekit.models import ImageSpecField
 
 
