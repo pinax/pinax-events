@@ -1,7 +1,7 @@
 from datetime import timedelta
 
-from django.utils import timezone
 from django.test import TestCase
+from django.utils import timezone
 
 from pinax.events.models import Event
 from pinax.events.templatetags.pinax_events_tags import events
