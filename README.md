@@ -134,6 +134,10 @@ Add and manage events via the Django admin.
 
 ## Change Log
 
+### 2.0.2
+
+* fix setup.py LONG_DESCRIPTION for PyPi
+
 ### 2.0.1
 
 * Fix setup.py for PyPi
