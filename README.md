@@ -134,6 +134,10 @@ Add and manage events via the Django admin.
 
 ## Change Log
 
+### 2.0.1
+
+* Fix setup.py for PyPi
+
 ### 2.0.0
 
 * Add Django 2.0 compatibility testing
