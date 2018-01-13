@@ -1,3 +1,5 @@
+![](http://pinaxproject.com/pinax-design/patches/pinax-events.svg)
+
 # Pinax Events
 
 [![](https://img.shields.io/pypi/v/pinax-events.svg)](https://pypi.python.org/pypi/pinax-events/)
