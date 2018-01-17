@@ -54,23 +54,26 @@ Django \ Python | 2.7 | 3.4 | 3.5 | 3.6
 
 To install pinax-events:
 
-    pip install pinax-events
+```commandline
+    $ pip install pinax-events
+```
 
 Add `pinax-events` to your `INSTALLED_APPS` setting:
 
 ```python
-    INSTALLED_APPS = (
-        ...
+    INSTALLED_APPS = [
+        # other apps
         "imagekit",
         "pinax.events",
-        ...
-    )
+    ]
 ```
 
 You will need either `PIL` or `Pillow` installed for `imagekit` to work.  We
 recommend `Pillow`:
 
-    pip install Pillow
+```commandline
+    $ pip install Pillow
+```
 
 ### Settings
 
@@ -93,15 +96,19 @@ In your template where you want to display events:
 
 First, load the template tags:
 
+```djangotemplate
     {% load pinax_events_tags %}
+```
 
 Then:
 
+```djangotemplate
     {% events as event_items %}
+```
 
 And here is an example that how you can show the events:
 
-```html
+```djangotemplate
     <section class="event-list">
         {% for event in event_items %}
             <article class="event" style="{% if event.secondary_image_thumb %}background-image:url({% static event.secondary_image_thumb.url %});{% endif %}">
@@ -135,6 +142,14 @@ Add and manage events via the Django admin.
 
 
 ## Change Log
+
+### 2.0.3
+
+* Add django>=1.11 to requirements
+* Update CI config
+* Remove doc build support
+* Add sorting guidance for 3rd-party app imports
+* Improve documentation markup
 
 ### 2.0.2
 
