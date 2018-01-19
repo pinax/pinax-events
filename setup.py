@@ -36,7 +36,6 @@ Pinax Events
 
 ``pinax-events`` is a simple app for publishing events on your site. 
 
-
 Supported Django and Python Versions
 ------------------------------------
 
