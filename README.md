@@ -60,7 +60,7 @@ To install pinax-events:
     $ pip install pinax-events
 ```
 
-Add `pinax-events` to your `INSTALLED_APPS` setting:
+Add `pinax.events` to your `INSTALLED_APPS` setting:
 
 ```python
     INSTALLED_APPS = [
