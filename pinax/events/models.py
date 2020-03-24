@@ -34,7 +34,7 @@ class Event(models.Model):
     def save(self, *args, **kwargs):
         if self.what:
             self.what_html = markdown.markdown(self.what)
-        return super(Event, self).save(*args, **kwargs)
+        return super().save(*args, **kwargs)
 
     @classmethod
     def upcoming(cls):
