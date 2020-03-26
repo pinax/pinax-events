@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-VERSION = "2.0.3"
+VERSION = "3.0.0"
 LONG_DESCRIPTION = """
 .. image:: http://pinaxproject.com/pinax-design/patches/pinax-events.svg
     :target: https://pypi.python.org/pypi/pinax-events/
