@@ -19,7 +19,7 @@
 * [About Pinax](#about-pinax)
 * [Important Links](#important-links)
 * [Overview](#overview)
-  * [Supported Django and Python versions](#supported-django-and-python-versions)
+  * [Supported Django and Python Versions](#supported-django-and-python-versions)
 * [Documentation](#documentation)
   * [Installation](#installation)
   * [Settings](#settings)
@@ -54,7 +54,7 @@ Where you can find what you need:
 
 ``pinax-events`` is a simple app for publishing events on your site.
 
-#### Supported Django and Python versions
+#### Supported Django and Python Versions
 
 Django / Python | 3.6 | 3.7 | 3.8
 --------------- | --- | --- | ---
