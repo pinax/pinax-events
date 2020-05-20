@@ -10,7 +10,7 @@ from imagekit.models import ImageSpecField
 def image_upload_to(instance, filename):
     uid = str(uuid.uuid4())
     ext = filename.split(".")[-1].lower()
-    return "event-images/{}/{}.{}".format(instance.pk, uid, ext)
+    return f"event-images/{instance.pk}/{uid}.{ext}"
 
 
 class Event(models.Model):
@@ -34,7 +34,7 @@ class Event(models.Model):
     def save(self, *args, **kwargs):
         if self.what:
             self.what_html = markdown.markdown(self.what)
-        return super(Event, self).save(*args, **kwargs)
+        return super().save(*args, **kwargs)
 
     @classmethod
     def upcoming(cls):
